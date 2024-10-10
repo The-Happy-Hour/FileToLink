@@ -21,7 +21,7 @@ async def private_receive_handler(client, message):
     download = f"{URL}/download/{msg.id}"
 
     await message.reply_text(
-        text=f"<b>Here Is Your Streamable Link\n\nFile Name</b>:\n<code>{file_name}</code>\n\n<b>Powered By - <a href=https://t.me/botsync>©BotSync™</a></b>",
+        text=f"<b>Here Is Your Streamable Link\n\nFile Name</b>:\n<code>{file_name}</code>\n\n<b>Powered By - <a href=https://t.me/The_Happy_Hours>The Happy Hour™</a></b>",
         reply_markup=InlineKeyboardMarkup(
         [
             [
